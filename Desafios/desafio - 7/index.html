@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/html.ico.ico" type="image/x-icon">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <p>
+        <picture>
+            <source media="(max-width: 750px )" srcset="Imagens/dog300.png" type="image/png">
+            <source media="(max-width: 1050px )" srcset="Imagens/dog700.png" type="image/png">
+            <img src="Imagens/dog1000.png" alt="dog">
+        </picture>
+    </p>
+<h2>Videos</h2>
+<p>
+    <video width="560" controls autoplay loop>
+        <source src="midia/surf.mp4" type="video/mp4">
+        <source src="midia/Surf2.m4v" type="video/mp4">
+        <source src="midia/Surf3.webm" type="video/webm">
+        <source src="midia/surf4.ogv" type="video/ogg">
+        <p>Esse navegador não suporta esse video</p>
+</p>
+</video>
+<h2> video do youtube</h2>
+<p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sETiMcmBWTk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+<h2>Audio</h2>
+<audio src="midia/guanacast-33.mp3" controls autoplay loop></audio>
+</body>
+</html>

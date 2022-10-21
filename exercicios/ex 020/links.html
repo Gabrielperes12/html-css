@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links personalizados</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: rgb(138, 36, 36);
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        a:active {
+            color: yellow;
+        }
+        .especial {
+            background-color: rgb(236, 148, 148);
+        }
+        a::before {
+            content:'[Link]';
+            text-decoration: none ;
+            font-weight: normal;
+            color: black;
+        }
+        a::after {
+            content: '[Link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Links personalizados</h1>
+    <ul>
+        <li><a href="https://www.facebook.com/gabrielperesspfc/" target="_blank" class="especial">Facebook</a></li>
+        <li><a href="https://www.instagram.com/gabrielgpn1/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com/channel/UCqbMM9X216e3nw8KbKZm3RQ" target="_blank">Youtube</a></li>
+    </ul>
+</body>
+</html>
