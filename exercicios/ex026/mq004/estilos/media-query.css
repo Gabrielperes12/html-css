@@ -25,12 +25,8 @@
     img#tv1{display: none;}
 }
 @media screen and (min-width: 768px) and (max-width: 992px) { 
-    * {
-        font-family: 'Courier New', Courier, monospace;
-    }
-    main, h1 {
-        text-shadow: none;
-        color: black;
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
     }
 
 img#c1{display: none;}
